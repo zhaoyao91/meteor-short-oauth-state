@@ -1,6 +1,6 @@
 Package.describe({
     name: 'zhaoyao91:short-oauth-state',
-    version: '0.0.1',
+    version: '0.0.1_2',
     summary: 'make oauth state short in url',
     git: 'https://github.com/zhaoyao91/meteor-short-oauth-state',
     documentation: 'README.md'
