@@ -24,6 +24,7 @@ OAuth._stateFromQuery = function (query) {
 
 Meteor.methods({
     'zhaoyao91:short-oauth-state.setState'(id, state) {
+        if (State.findOne({_id: id}) return id;
         const expiredAt = getExpiredAt();
         return State.insert({_id: id, state, expiredAt});
     }
