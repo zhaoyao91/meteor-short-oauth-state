@@ -12,6 +12,7 @@ Package.onUse(function (api) {
   api.use('mongo', 'server')
   api.use('oauth')
   api.use('random')
+  api.use('check')
 
   api.addFiles('server.js', 'server')
   api.addFiles('client.js', 'client')
